@@ -1,0 +1,48 @@
+Librerías:
+
+archivos que tiene funciones que queremos 
+usar en nuestro programa
+
+Librerías estándar:
+-random
+-math 
+ya estan intaladas en py
+
+Librerias de terceros:
+-numpy
+-pandas
+que necesitan de una instalación para usarlas
+ 
+Importar un Librería
+
+import random
+n = random.randint(1,6)
+
+otra manera:
+
+import n as alias
+import random as rd 
+n = rd.randint(1,6)
+
+from n import n1,n2
+form random import randint
+n = rd.randint(1,6)
+
+from n import *
+from random import *
+n = randint(1,6)
+
+funcin randint
+recibe dos argumentos enteros n1 y n2 (1,6)
+
+from random import *
+n = randint(1,6)
+print(n)
+
+Metodo 1:
+randrenge(n1) #se envia un entero al argumentos
+form random import *
+n = randtange(1)
+print(n)
+
+fuente:https://www.youtube.com/watch?v=OkVQARcq86Q
